@@ -35,8 +35,10 @@ import com.example.delfinv2.R;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 
 
 public class CalendarioFragment extends Fragment implements View.OnClickListener, Response.Listener<JSONObject>, Response.ErrorListener {
@@ -236,7 +238,12 @@ public class CalendarioFragment extends Fragment implements View.OnClickListener
         DatePickerDialog datePicker = new DatePickerDialog(getActivity(), new DatePickerDialog.OnDateSetListener() {
             @Override
             public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
-                String fecha = String.valueOf(dayOfMonth) +"/"+String.valueOf(monthOfYear)+"/"+String.valueOf(year);
+                String fecha;
+                if (monthOfYear < 10){
+                    fecha = String.valueOf(dayOfMonth) +"/0"+String.valueOf(monthOfYear)+"/"+String.valueOf(year);
+                }else{
+                    fecha = String.valueOf(dayOfMonth) +"/"+String.valueOf(monthOfYear)+"/"+String.valueOf(year);
+                }
                 filterDate.setText(fecha);
             }
         }, Calendar.YEAR, Calendar.MONTH, Calendar.DAY_OF_MONTH);
