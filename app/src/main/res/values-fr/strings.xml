@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Delfin</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="nav_header_title">Programa delfin</string>
+    <string name="nav_header_subtitle">programadelfin.org.mx</string>
+    <string name="nav_header_desc">En-tête de navigation</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="menu_home">Bienvenue</string>
+    <string name="menu_calendario">Calendrier</string>
+    <string name="menu_preguntas">Des questions</string>
+    <string name="countdown_hrs">LES HEURES</string>
+    <string name="countdown_days">JOURNÉES</string>
+    <string name="countdown_min">MINUTES</string>
+    <string name="countdown_sec">SECONDS</string>
+    <string name="countdown_finish">C\'EST AUJOURD\'HUI LE JOUR</string>
+    <string name="menu_schedule">HORAIRE</string>
+    <string name="tittle_filters_calendar">QU\'EST-CE QUE TU VEUX VOIR?</string>
+    <string name="filter_category_calendar">CATÉGORIES</string>
+    <string name="filter_status_calendar">STATUT</string>
+    <string name="cateevent_taller">ATELIER</string>
+    <string name="catevent_expo">DES EXPOSITIONS</string>
+    <string name="catevent_oficial">ÉVÉNEMENT OFFICIEL</string>
+    <string name="catevent_conf">CONFÉRENCE</string>
+    <string name="catevent_sport">ÉVÉNEMENT SPORTIF</string>
+    <string name="typevent_pres">PRÉSENTIEL</string>
+    <string name="typevent_virt">VIRTUEL</string>
+    <string name="statevent_act">ACTIF</string>
+    <string name="statevent_canc">ANNULÉ</string>
+    <string name="statevent_pend">BOUCLE D\'OREILLE</string>
+    <string name="statevent_past">PASSE</string>
+    <string name="filter_type_calendar">TYPE</string>
+    <string name="hint_date">SELECT DATE</string>
+    <string name="baseurl">http://192.168.100.53/WService/</string>
+    <string name="btnFilterAply">APPLIQUER</string>
+    <string name="btnFilterErase">EFFACER</string>
+</resources>

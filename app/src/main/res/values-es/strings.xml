@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Delfin</string>
+    <string name="navigation_drawer_open">Abrir cajón de navegación</string>
+    <string name="navigation_drawer_close">Cerrar cajón de navegación</string>
+    <string name="nav_header_title">Programa delfin</string>
+    <string name="nav_header_subtitle">programadelfin.org.mx</string>
+    <string name="nav_header_desc">Encabezado de navegación</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="menu_home">Bienvenidos</string>
+    <string name="menu_calendario">Calendario</string>
+    <string name="menu_preguntas">Preguntas</string>
+    <string name="countdown_hrs">HORAS</string>
+    <string name="countdown_days">DIAS</string>
+    <string name="countdown_min">MINUTOS</string>
+    <string name="countdown_sec">SEGUNDOS</string>
+    <string name="countdown_finish">HOY ES EL GRAN DIA</string>
+    <string name="menu_schedule">Horarios</string>
+    <string name="tittle_filters_calendar">QUE DESEAS VER?</string>
+    <string name="filter_category_calendar">CATEGORIAS</string>
+    <string name="filter_status_calendar">ESTADO</string>
+    <string name="cateevent_taller">TALLER</string>
+    <string name="catevent_expo">EXPOSICIONES</string>
+    <string name="catevent_oficial">EVENTO OFICIAL</string>
+    <string name="catevent_conf">CONFERENCIA</string>
+    <string name="catevent_sport">EVENTO DEPORTIVO</string>
+    <string name="typevent_pres">PRESENCIAL</string>
+    <string name="typevent_virt">VIRTUAL</string>
+    <string name="statevent_act">ACTIVO</string>
+    <string name="statevent_canc">CANCELADA</string>
+    <string name="statevent_pend">PENDIENTE</string>
+    <string name="statevent_past">PASADA</string>
+    <string name="filter_type_calendar">TIPO</string>
+    <string name="hint_date">FECHA</string>
+    <string name="baseurl">http://192.168.100.53/WService/</string>
+    <string name="btnFilterAply">APLICAR</string>
+    <string name="btnFilterErase">BORRAR</string>
+</resources>
