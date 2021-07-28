@@ -3,6 +3,8 @@ package com.example.delfinv2;
 import android.os.Bundle;
 import android.view.Menu;
 
+import com.example.delfinv2.Adapter.IComunica;
+import com.example.delfinv2.ui.Preguntas.ListQuestionsFragment;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.navigation.NavController;
@@ -14,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.delfinv2.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements IComunica {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
@@ -50,5 +52,14 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    @Override
+    public void enviarid(int id) {
+        ListQuestionsFragment LQF = new ListQuestionsFragment();
+        Bundle bundle = new Bundle();
+        bundle.putInt("id",id);
+        LQF.setArguments(bundle);
+        getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_content_main,LQF).addToBackStack(null).commit();
     }
 }

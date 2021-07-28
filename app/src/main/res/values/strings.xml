@@ -36,4 +36,6 @@
     <string name="baseurl">http://192.168.100.53/WService/</string>
     <string name="btnFilterAply">APLY</string>
     <string name="btnFilterErase">ERASE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="scheduleErrorResponse">No se han encontrado coincidencias</string>
 </resources>

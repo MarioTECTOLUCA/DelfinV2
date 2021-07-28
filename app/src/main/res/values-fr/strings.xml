@@ -35,4 +35,5 @@
     <string name="baseurl">http://192.168.100.53/WService/</string>
     <string name="btnFilterAply">APPLIQUER</string>
     <string name="btnFilterErase">EFFACER</string>
+    <string name="scheduleErrorResponse">Aucun résultat</string>
 </resources>
