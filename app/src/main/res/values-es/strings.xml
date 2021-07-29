@@ -36,4 +36,9 @@
     <string name="btnFilterAply">APLICAR</string>
     <string name="btnFilterErase">BORRAR</string>
     <string name="scheduleErrorResponse">No se han encontrado coincidencias</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
+    <string name="configQuesion">Desea configurar los permisos de forma manual?</string>
+    <string name="nonPermission">Los permisos no fueron aceptados</string>
+    <string name="titlleDialogPermission">Necesitamos tu permiso</string>
 </resources>

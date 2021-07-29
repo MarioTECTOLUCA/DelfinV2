@@ -36,4 +36,9 @@
     <string name="btnFilterAply">APPLIQUER</string>
     <string name="btnFilterErase">EFFACER</string>
     <string name="scheduleErrorResponse">Aucun résultat</string>
+    <string name="yes">OUI</string>
+    <string name="no">NON</string>
+    <string name="configQuesion">Voulez-vous configurer les autorisations manuellement ?</string>
+    <string name="nonPermission">Les permis n\'ont pas été acceptés</string>
+    <string name="titlleDialogPermission">Nous avons besoin de votre autorisation</string>
 </resources>
